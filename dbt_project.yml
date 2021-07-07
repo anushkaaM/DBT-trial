@@ -36,3 +36,10 @@ models:
       # Applies to all files under models/example/
       example:
           materialized: table
+          config-version: 2
+
+vars:
+  github_source:
+    github_database: analytics
+    github_schema: dbt_amukherjee
+Disabling Models
